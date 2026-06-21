@@ -1,0 +1,29 @@
+0 verbose cli D:\Ddownload\node.js\node.exe D:\Ddownload\node.js\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:D:\Ddownload\node.js\node_modules\npm\npmrc
+4 silly config load:file:D:\cursor\restaurant-order\.npmrc
+5 silly config load:file:C:\Users\WWb\.npmrc
+6 silly config load:file:C:\Users\WWb\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm create vite@latest restaurant-frontend --template vue
+8 verbose argv "create" "vite@latest" "restaurant-frontend" "--" "--template" "vue"
+9 verbose logfile logs-max:10 dir:D:\cursor\restaurant-order\%APPDATA%\npm-cache\_logs\2026-06-18T02_18_13_774Z-
+10 verbose logfile D:\cursor\restaurant-order\%APPDATA%\npm-cache\_logs\2026-06-18T02_18_13_774Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET 200 https://registry.npmjs.org/create-vite 843ms (cache miss)
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 silly idealTree buildDeps
+16 silly fetch manifest create-vite@9.0.7
+17 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/create-vite 470ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+20 silly placeDep ROOT create-vite@9.0.7 OK for:  want: 9.0.7
+21 silly reify moves {}
+22 silly audit bulk request { 'create-vite': [ '9.0.7' ] }
+23 http cache create-vite@https://registry.npmjs.org/create-vite/-/create-vite-9.0.7.tgz 0ms (cache hit)
+24 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-9.0.7.tgz. Extracting by manifest.
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 216ms
+26 silly audit report {}
+27 http fetch GET 200 https://registry.npmjs.org/npm 1668ms
+28 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-9.0.7.tgz 1198ms (cache miss)

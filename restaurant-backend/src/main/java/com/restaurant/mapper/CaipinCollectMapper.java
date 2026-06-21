@@ -1,0 +1,10 @@
+package com.restaurant.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.restaurant.entity.CaipinCollect;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface CaipinCollectMapper extends BaseMapper<CaipinCollect> {
+}
+
